@@ -52,7 +52,7 @@ RenderExecutor.render(pie, new File("pie.html"));
 
 ### Advanced Usage
 
-Specially, If you only have some basic configuration and chart types, u can specific them at the `application.yml` directly.
+Specially, If you only have some basic configurations and chart types, u can specific them at the `application.yml` directly.  
 When u set `auto-gen-chart = true`, there will have all the specific charts instances stored in the `ChartFactory`.
 
 > application.yml
