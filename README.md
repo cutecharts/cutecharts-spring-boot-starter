@@ -48,6 +48,7 @@ Chart pie = newChart
       .build();
 RenderExecutor.render(pie, new File("pie.html"));
 ```
+![Pie](https://user-images.githubusercontent.com/33706142/78470822-d73dbc80-775e-11ea-96bd-88ee8e801525.png)
 
 ### Advanced Usage
 
@@ -98,7 +99,12 @@ data1.appendDataSet(dataSet);
 bar.setData(data1);
 RenderExecutor.render(bar, new File("bar.html"));
 ```  
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/33706142/78470863-24219300-775f-11ea-911c-12464b94cb6e.png" alt="line" width=45%/>
+    <img src="https://user-images.githubusercontent.com/33706142/78470865-2683ed00-775f-11ea-9bc9-0858a33aad3b.png" alt="bar" width=45%/>
+</div>
 
+-----
 ## 📃 License
 
 MIT [©Koy](https://github.com/Koooooo-7)
