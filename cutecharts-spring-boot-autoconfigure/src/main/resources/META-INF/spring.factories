@@ -1,0 +1,4 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.koy.cutecharts.autoconfiguration.CuteChartsConfiguration,\
+com.koy.cutecharts.autoconfiguration.AutoGenChartsConfiguration
