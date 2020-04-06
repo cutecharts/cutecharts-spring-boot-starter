@@ -11,7 +11,7 @@
 - There is a starter for [cutecharts.java](https://github.com/cutecharts/cutecharts.java) 🎨.
 - You can import it easily to ur SpringBoot project :bike:.
 
-## 📝 Useage
+## 📝 Usage
 >:apple: Notice:  Firstly, you need install all the dependencies in ur local or central repo.
 
 > Support:     
@@ -101,6 +101,7 @@ RenderExecutor.render(bar, new File("bar.html"));
 ```  
 <div align="center">
     <img src="https://user-images.githubusercontent.com/33706142/78470863-24219300-775f-11ea-911c-12464b94cb6e.png" alt="line" width=45%/>
+    &emsp;&emsp;
     <img src="https://user-images.githubusercontent.com/33706142/78470865-2683ed00-775f-11ea-9bc9-0858a33aad3b.png" alt="bar" width=45%/>
 </div>
 
