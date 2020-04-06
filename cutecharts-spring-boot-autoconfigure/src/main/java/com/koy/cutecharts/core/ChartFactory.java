@@ -12,15 +12,15 @@ import java.util.List;
  */
 public class ChartFactory {
 
-    private List<Chart> chartBuilders;
+    private List<Chart> charts;
 
-    public ChartFactory(List<Chart> chartBuilders) {
-        this.chartBuilders = chartBuilders;
+    public ChartFactory(List<Chart> charts) {
+        this.charts = charts;
     }
 
     /*potential concurrent issues*/
     public Chart getChart(ChartType chartType) {
-        for (Chart cb : chartBuilders) {
+        for (Chart cb : charts) {
             if (cb.getType().equals(chartType.getSymbol())) {
                 return cb;
             }
