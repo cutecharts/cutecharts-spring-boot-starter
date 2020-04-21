@@ -4,6 +4,7 @@ import com.koy.cutecharts.core.ChartBuilder;
 import com.koy.cutecharts.options.GlobalOptions;
 import com.koy.cutecharts.properties.CuteChartsProperties;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -22,7 +23,7 @@ public class CuteChartsConfiguration {
 
     @Bean
     @Autowired
-    @Scope("prototype")
+    @Scope(BeanDefinition.SCOPE_PROTOTYPE)
     public ChartBuilder.newChart newChart(CuteChartsProperties cuteChartsProperties) {
         ChartBuilder.newChart newChart = new ChartBuilder.newChart();
         GlobalOptions globalOptions = Optional.ofNullable(cuteChartsProperties.getGlobalOptions()).orElseGet(GlobalOptions::new);
