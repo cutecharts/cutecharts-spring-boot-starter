@@ -9,10 +9,10 @@
 ##  📣 Description
 
 - There is a starter for [cutecharts.java](https://github.com/cutecharts/cutecharts.java) 🎨.
-- You can import it easily to ur SpringBoot project :bike:.
+- You can import it easily to your SpringBoot project :bike:.
 
-## 📝 Useage
->:apple: Notice:  Firstly, you need install all the dependencies in ur local or central repo.
+## 📝 Usage
+>:apple: Notice:  Firstly, you need install all the dependencies in your local or central repository.
 
 > Support:     
 > - JDK1.8+  
@@ -29,7 +29,7 @@
 ```
 
 ### Basic Usage
-Normally, when u import the starter, there has a non-specific chart type `Chart.newChart` bean created.  
+Normally, when you import the starter, there has a non-specific chart type `Chart.newChart` bean created.  
 You can use it to create the charts whatever you want.
 
 ```java
@@ -52,8 +52,8 @@ RenderExecutor.render(pie, new File("pie.html"));
 
 ### Advanced Usage
 
-Specially, If you only have some basic configurations and chart types, u can specific them at the `application.yml` directly.  
-When u set `auto-gen-chart = true`, there will have all the specific charts instances stored in the `ChartFactory`.
+Specially, If you only have some basic configurations and chart types, you can specific them at the `application.yml` directly.  
+When you set `auto-gen-chart = true`, there will have all the specific charts instances stored in the `ChartFactory`.
 
 > application.yml
 ```yaml
@@ -101,6 +101,7 @@ RenderExecutor.render(bar, new File("bar.html"));
 ```  
 <div align="center">
     <img src="https://user-images.githubusercontent.com/33706142/78470863-24219300-775f-11ea-911c-12464b94cb6e.png" alt="line" width=45%/>
+    &emsp;&emsp;
     <img src="https://user-images.githubusercontent.com/33706142/78470865-2683ed00-775f-11ea-9bc9-0858a33aad3b.png" alt="bar" width=45%/>
 </div>
 
